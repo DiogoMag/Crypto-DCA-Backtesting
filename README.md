@@ -16,49 +16,6 @@ The goal of this project is to backtest various DCA strategies with MACD and Fea
 - **CCXT** - Cryptocurrency exchange integration for real market data
 - **TA-Lib** - Technical analysis indicators (MACD, moving averages, etc.)
 
-## Installation
-
-### Prerequisites
-- Python 3.8 or higher installed on your system
-- Git
-
-### Setup Steps
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/dca_backtest.git
-   cd dca_backtest
-   ```
-
-2. **Create a virtual environment:**
-   ```bash
-   python -m venv backtest_env
-   ```
-
-3. **Activate the virtual environment:**
-   
-   **Windows:**
-   ```bash
-   backtest_env\Scripts\activate
-   ```
-   
-   **macOS/Linux:**
-   ```bash
-   source backtest_env/bin/activate
-   ```
-
-4. **Install dependencies:**
-   ```bash
-   pip install jupyterlab pandas numpy backtrader ccxt ta-lib
-   ```
-
-   *Note: If `ta-lib` installation fails, you can use `pandas-ta` as an alternative.*
-
-5. **Launch Jupyter Lab:**
-   ```bash
-   jupyter lab
-   ```
-
 ## Project Structure
 
 ```

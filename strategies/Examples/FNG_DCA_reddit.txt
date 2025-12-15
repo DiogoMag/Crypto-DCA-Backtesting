@@ -1,0 +1,35 @@
+DCA strategy using the Fear & Greed Index - Surprising Results
+I downloaded all historical data from the Fear and Greed Index, and wrote a DCA backtesting script in python. I wanted to find out how DCA performed if you increased your DCA amount during times of  EXTREME FEAR, kept it normal during times of FEAR, and very little during times of GREED.
+
+I compared this with a benchmark DCA strategy where you simply buy for the same amount regularly regardless of what happens. The results are below:
+
+Start date:  March 17th  2018
+
+End Date:  September 9th 2023 (Bottom or top of not fair end date)
+
+1. Benchmark DCA Strategy
+
+$100 invested each 7 days
+	ROI (Return on Investment): 124.81%
+	Final BTC Holdings: 2.48 BTC
+	Total Dollar Amount Invested: $28,600
+	SATS per Dollar Invested: 8 680 SATS per dollar
+	Total Dollar Profit/Loss: $35,694
+
+2. Fear & Greed DCA Strategy
+
+Each 7 days we check the F&G index and invest:
+	$150 if “Extreme Fear”
+	$100 if “Fear”
+	$75 if “Greed”
+	$25 if “Extreme Greed”
+
+ROI (Return on Investment): 151.68%
+	Final BTC Holdings: 2.49 BTC
+	Total Dollar Amount Invested: $25,625
+	SATS per Dollar Invested: 9 720 SATS per dollar
+	Total Dollar Profit/Loss: $38,866
+
+
+The F&G DCA strategy returned 152% as opposed to DCA which returned 124.81%, a notable difference. Not only that, but the F&G DCA strategy resulted in MORE BTC for LESS dollars invested. This is also highlighted by the “Sats per dollar”.
+Conclusion: This is a very basic modification of a DCA strategy using the F&G which isn’t all that accurate, still it helped us to spread out our hard earned dollars in a more sensible way. I imagine with some tweaking, this could be a very effective strategy to navigate bull and bear markets. 
